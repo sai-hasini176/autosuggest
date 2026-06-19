@@ -1,0 +1,19 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "verifying my git set-up :)\r Hi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai-hasini176/autosuggest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai-hasini176/autosuggest/issues"
+  },
+  "homepage": "https://github.com/sai-hasini176/autosuggest#readme"
+}
