@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sai-hasini176/autosuggest/issues"
   },
-  "homepage": "https://github.com/sai-hasini176/autosuggest#readme"
+  "homepage": "https://github.com/sai-hasini176/autosuggest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
