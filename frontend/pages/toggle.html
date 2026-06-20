@@ -7,17 +7,43 @@
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
+
     <div class="navbar">
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
         <a href="/pages/toggle.html">Toggle</a>
         <a href="/pages/randomuser.html">Random User</a>
     </div>
-    <div class="toggle">
-        <img src="../images/john.png" alt="user image">
-        <h2>John Doe</h2>
-        <p>Male</p>
+
+    <div class="card">
+        <img id="userImage" src="../images/john.png" alt="user image">
+        <h2 id="userName">John Doe</h2>
+        <p id="userGender">Male</p>
+
+        <button class="toggle-btn" onclick="toggleUser()">
+            Toggle
+        </button>
     </div>
-    <script src="js/index.js"></script>
+
+    <script>
+        let isJohn = true;
+        function toggleUser() {
+            const image = document.getElementById("userImage");
+            const name = document.getElementById("userName");
+            const gender = document.getElementById("userGender");
+            if (isJohn) {
+                image.src = "../images/sarah.";
+                name.textContent = "Sarah Smith";
+                gender.textContent = "Female";
+            } else {
+                image.src = "../images/john.png";
+                name.textContent = "John Doe";
+                gender.textContent = "Male";
+            }
+
+            isJohn = !isJohn;
+        }
+    </script>
+
 </body>
 </html>
