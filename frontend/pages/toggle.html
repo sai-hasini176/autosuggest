@@ -16,34 +16,16 @@
     </div>
 
     <div class="card">
-        <img id="userImage" src="../images/john.png" alt="user image">
-        <h2 id="userName">John Doe</h2>
-        <p id="userGender">Male</p>
+        <img id="user-img" src="../images/john.png" alt="user image">
+        <h2 id="user-name">John Doe</h2>
+        <p id="user-gender">Male</p>
 
-        <button class="toggle-btn" onclick="toggleUser()">
+        <button id="toggle" onclick="toggle()">
             Toggle
         </button>
     </div>
 
-    <script>
-        let isJohn = true;
-        function toggleUser() {
-            const image = document.getElementById("userImage");
-            const name = document.getElementById("userName");
-            const gender = document.getElementById("userGender");
-            if (isJohn) {
-                image.src = "../images/sarah.avif";
-                name.textContent = "Sarah Smith";
-                gender.textContent = "Female";
-            } else {
-                image.src = "../images/john.png";
-                name.textContent = "John Doe";
-                gender.textContent = "Male";
-            }
-
-            isJohn = !isJohn;
-        }
-    </script>
-
+    <script src="js/index.js"></script>
+    <script src="../js/toggle.js"></script>
 </body>
 </html>
