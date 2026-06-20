@@ -42,10 +42,9 @@ h1{
     padding:10px;
     margin-bottom:0px;
     cursor:pointer;
-    transition:0.2s;
+    
 }
-
 #search-suggestions div:hover{
     background:#f5f5f5;
-    border-color:#999;
+    border-color:#848080;
 }
