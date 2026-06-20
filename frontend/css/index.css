@@ -40,14 +40,7 @@ body{
 .card img{
     width: 100%;
 }
-.toggle{
-    display: none;
-    border: 2px solid black;
-    width: 300px;
-    text-align: center;
-    margin: 30px auto;
-    padding-bottom: 15px;
-}
+
 .card button{
     background-color: rgb(147, 141, 141);
     color: rgb(0, 0, 0);
